@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'panto_font';
+    src: url(../font/Gilroy-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+body{
+    font-family: 'panto_font',sans-serif;
+}
