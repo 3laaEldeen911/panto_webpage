@@ -131,6 +131,7 @@ li{
     width: 90%;
     margin: auto;
     margin: 60px auto;
+    gap: 10px;
 }
 .features-grid{
     display: flex;
@@ -146,6 +147,12 @@ li{
     gap: 20px;
     padding: 20px;
     border-radius: 15px;
+    h3{
+        color: #0D1B39;
+    }
+    P{
+        color: #0d1b399f;
+    }
     a{
         color: #E58411;
     }
@@ -253,6 +260,14 @@ li{
     font-size: 1.2rem;
     cursor: pointer;
     margin-top: 10px;
+    transition-duration: 0.1s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+.add-btn:hover{
+    scale: 1.4;
+    background-color:#0d1b39e2;
 }
 
 .view-all {
